@@ -7,8 +7,8 @@ external-controller: :9090
 proxies:
   - {name: 🇷🇺 俄罗斯阿伟科技-油管6, server: 45.130.146.157, port: 80, type: vmess, uuid: a6634afc-db1e-3ede-9843-18d278ffec82, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 45.130.146.157}}
   - {name: 🇯🇵 日本阿伟科技-油管6, server: 20.46.163.89, port: 80, type: vmess, uuid: a6634afc-db1e-3ede-9843-18d278ffec82, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 20.46.163.89}}
-  - {name: 🇪🇺 欧洲阿伟科技-油管2, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: 18bb9d16-0a40-4f0c-9e88-5b5e376897fc, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
-  - {name: 卢森堡阿伟科技-油管2, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: 18bb9d16-0a40-4f0c-9e88-5b5e376897fc, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
+  - {name: 🇪🇺 欧洲阿伟科技-油管2, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: 18bb9d16-0a40-4f0c-9e88-5b5e376897fc, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-5..top}}
+  - {name: 卢森堡阿伟科技-油管2, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: 18bb9d16-0a40-4f0c-9e88-5b5e376897fc, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-3..top}}
   - {name: 阿伟科技-油管4, server: 107.150.94.12, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: 阿伟科技-油管4 2, server: 107.150.94.12, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
   - {name: 🇭🇰 香港阿伟科技-油管6, server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
@@ -49,6 +49,55 @@ proxies:
   - {name: 移动测试可用10M 9, server: 45.125.247.91, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: 🇹🇷 土耳其阿伟科技-油管4 2, server: 107.150.94.12, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
   - {name: 🇭🇰 香港阿伟科技-油管6 3, server: 52.229.203.193, port: 80, type: vmess, uuid: a6634afc-db1e-3ede-9843-18d278ffec82, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.229.203.193}}
+  - {name: 阿伟科技-油管2, server: 104.24.64.213, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇭🇰 香港阿伟科技-油管2, server: kaizen-hk-2.cn0.me, port: 443, type: trojan, password: 01cfa1e4-cdce-35f6-9d66-88723210601dcmynw, sni: kaizen-hk-2.cn0.me, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡阿伟科技-油管3, server: ukdll.52jjyun.top, port: 80, type: vmess, uuid: 1eb19a07-1ce2-4410-8349-c85f7d9d560b, alterId: 10, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /jjyun, ws-headers: {Host: ukdll.52jjyun.top}}
+  - {name: 🇰🇷 韩国阿伟科技-油管5, server: kr2.futi.online, port: 2063, type: vmess, uuid: 0cab950b-4c7b-4215-836f-c7d46f447eb1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}}
+  - {name: 🇸🇬 新加坡阿伟科技-油管2, server: 1023sg.fans8.xyz, port: 80, type: vmess, uuid: 5d71207f-1f21-32f1-9035-0f014d4a133c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1023sg.fans8.xyz}}
+  - {name: 塞舌尔阿伟科技-油管2, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: c0023b32-b34b-4aca-ac22-dc39d126976e, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
+  - {name: 卢森堡阿伟科技-油管2, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: c0023b32-b34b-4aca-ac22-dc39d126976e, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
+  - {name: 阿伟科技-油管4, server: 107.150.94.12, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
+  - {name: 🇩🇪 德国阿伟科技-油管2, server: 104.18.253.38, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 阿伟科技-油管2 2, server: 107.150.94.12, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇭🇰 香港阿伟科技-油管1, server: cm-jm.okvpn.xyz, port: 20001, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 阿伟科技-油管2 3, server: 185.124.240.146, port: 47553, type: ss, cipher: aes-256-gcm, password: t2JnnFqjDMmzWurseJPgBsYY}
+  - {name: 🇹🇷 土耳其阿伟科技-油管4, server: 107.150.94.12, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 美国阿伟科技-油管2, server: 138.199.42.134, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr}
+  - {name: 🇹🇷 土耳其阿伟科技-油管2, server: 107.150.94.12, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇹🇷 土耳其阿伟科技-油管5, server: 107.150.94.12, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇨🇭 瑞士伟科技-油管5, server: 156.146.62.50, port: 32971, type: ss, cipher: aes-256-gcm, password: vwS65ZXyZg85ApwZ2bBh6zFZ}
+  - {name: 🇺🇸 美国阿伟科技-油管5, server: 104.16.149.48, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇹🇷 土耳其阿伟科技-油管4 2, server: 107.150.94.12, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
+  - {name: 🇸🇬 新加坡阿伟科技-油管2 2, server: cm-jm.okvpn.xyz, port: 20049, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇯🇵 日本香港阿伟科技-油管5, server: cm-jm.okvpn.xyz, port: 20015, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇯🇵 日本阿伟科技-油管2, server: jpa.sttlink.xyz, port: 20189, type: vmess, uuid: ab60166b-d22d-3ae5-963f-e5867007ff08, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /ka, ws-headers: {Host: jpa.sttlink.xyz}}
+  - {name: 🇭🇰 香港阿伟科技-油管2 2, server: cm-jm.okvpn.xyz, port: 20003, type: vmess, uuid: b9c61a2c-eab1-4ebe-89fd-45a29554e426, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}}
+  - {name: 🇭🇰 香港阿伟科技-油管2 3, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 美国阿伟科技-油管3, server: 1030us.fans8.xyz, port: 80, type: vmess, uuid: 5d71207f-1f21-32f1-9035-0f014d4a133c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1030us.fans8.xyz}}
+  - {name: 🇹🇷 土耳其阿伟科技-油管2 2, server: 107.150.94.12, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
+  - {name: 🇹🇷 土耳其阿伟科技-油管2 3, server: 107.150.94.12, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇹🇷 土耳其阿伟科技-油管2 4, server: 107.150.94.12, port: 41992, type: ss, cipher: aes-256-gcm, password: XmQSxDCn5ehpcq6DBYms8FJf}
+  - {name: 🇮🇳 印度阿伟科技-油管3, server: 103.108.117.148, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇮🇳 印度美国阿伟科技-油管3, server: 103.108.117.148, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇰🇷 韩国阿伟科技-油管5 2, server: kr3.futi.online, port: 2053, type: vmess, uuid: 0cab950b-4c7b-4215-836f-c7d46f447eb1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: kr3.futi.online}}
+  - {name: 🇭🇰 香港阿伟科技-油管2 4, server: 52.229.203.193, port: 80, type: vmess, uuid: d3116c4d-5e09-349f-8285-6b1310bfe3f0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 52.229.203.193}}
+  - {name: 🇸🇬 新加坡阿伟科技-油管2 3, server: 20.212.36.250, port: 80, type: vmess, uuid: d3116c4d-5e09-349f-8285-6b1310bfe3f0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 20.212.36.250}}
+  - {name: 🇯🇵 日本阿伟科技-油管2 2, server: 20.46.163.89, port: 80, type: vmess, uuid: d3116c4d-5e09-349f-8285-6b1310bfe3f0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 20.46.163.89}}
+  - {name: 🇷🇺 俄罗斯阿伟科技-油管2, server: 45.130.146.157, port: 80, type: vmess, uuid: d3116c4d-5e09-349f-8285-6b1310bfe3f0, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 45.130.146.157}}
+  - {name: 🇺🇸 美国阿伟科技-油管3 2, server: 520yyds.zhqt.xyz, port: 50092, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 135.zhqt.xyz}}
+  - {name: 阿伟科技-油管3, server: 520yyds.zhqt.xyz, port: 50090, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-3.joker007.top}}
+  - {name: 🇪🇺 欧洲阿伟科技-油管3, server: 520yyds.zhqt.xyz, port: 50088, type: vmess, uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-5.joker007.top}}
+  - {name: 电信测试可用10M, server: 104.25.255.229, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 电信测试可用10M 2, server: 104.22.44.50, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 移动测试可用10M, server: 45.125.247.93, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: 移动测试可用10M 2, server: 45.125.247.197, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 移动测试可用10M 3, server: 144.48.38.19, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 移动测试可用10M 4, server: 144.48.38.21, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 移动测试可用10M 5, server: 45.125.247.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 移动测试可用10M 6, server: 45.130.137.14, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 移动测试可用10M 7, server: 144.48.38.183, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 移动测试可用10M 8, server: 45.130.137.14, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 移动测试可用10M 9, server: 45.125.247.91, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -703,7 +752,7 @@ rules:
  - DOMAIN-SUFFIX,kejet.net,🛑 全球拦截
  - DOMAIN-SUFFIX,keydot.net,🛑 全球拦截
  - DOMAIN-SUFFIX,keyrun.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,kmd365.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,.com,🛑 全球拦截
  - DOMAIN-SUFFIX,krux.net,🛑 全球拦截
  - DOMAIN-SUFFIX,lnk0.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lnk8.cn,🛑 全球拦截
@@ -767,7 +816,7 @@ rules:
  - DOMAIN-SUFFIX,publicidad.tv,🛑 全球拦截
  - DOMAIN-SUFFIX,pubmatic.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pubnub.com,🛑 全球拦截
- - DOMAIN-SUFFIX,qcl777.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qiyou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qtmojo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,quantcount.com,🛑 全球拦截
@@ -823,7 +872,7 @@ rules:
  - DOMAIN-SUFFIX,umtrack.com,🛑 全球拦截
  - DOMAIN-SUFFIX,unimhk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,union-wifi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,union001.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,.com,🛑 全球拦截
  - DOMAIN-SUFFIX,unionsy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,unlitui.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uri6.com,🛑 全球拦截
@@ -851,7 +900,7 @@ rules:
  - DOMAIN-SUFFIX,xcy8.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xdrig.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xiaozhen.com,🛑 全球拦截
- - DOMAIN-SUFFIX,xibao100.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xtgreat.com,🛑 全球拦截
  - DOMAIN-SUFFIX,xy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yandui.com,🛑 全球拦截
@@ -1046,7 +1095,7 @@ rules:
  - DOMAIN-SUFFIX,huodonghezi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,vcbn65.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,wanfeng1.com,🛑 全球拦截
- - DOMAIN-SUFFIX,wep016.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,.top,🛑 全球拦截
  - DOMAIN-SUFFIX,win-stock.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zantainet.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dh54wf.xyz,🛑 全球拦截
@@ -1407,7 +1456,7 @@ rules:
  - DOMAIN-SUFFIX,cj.qidian.com,🍃 应用净化
  - DOMAIN-SUFFIX,dkeyn.com,🍃 应用净化
  - DOMAIN-SUFFIX,drdwy.com,🍃 应用净化
- - DOMAIN-SUFFIX,e.aa985.cn,🍃 应用净化
+ - DOMAIN-SUFFIX,e..cn,🍃 应用净化
  - DOMAIN-SUFFIX,e.v02u9.cn,🍃 应用净化
  - DOMAIN-SUFFIX,e701.net,🍃 应用净化
  - DOMAIN-SUFFIX,ehxyz.com,🍃 应用净化
@@ -1585,13 +1634,13 @@ rules:
  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,xmpush.xiaomi.com,🍃 应用净化
  - DOMAIN-SUFFIX,ad.api.moji.com,🍃 应用净化
- - DOMAIN-SUFFIX,app.moji001.com,🍃 应用净化
- - DOMAIN-SUFFIX,cdn.moji002.com,🍃 应用净化
- - DOMAIN-SUFFIX,cdn2.moji002.com,🍃 应用净化
+ - DOMAIN-SUFFIX,app..com,🍃 应用净化
+ - DOMAIN-SUFFIX,cdn..com,🍃 应用净化
+ - DOMAIN-SUFFIX,cdn2..com,🍃 应用净化
  - DOMAIN-SUFFIX,fds.api.moji.com,🍃 应用净化
  - DOMAIN-SUFFIX,log.moji.com,🍃 应用净化
  - DOMAIN-SUFFIX,stat.moji.com,🍃 应用净化
- - DOMAIN-SUFFIX,ugc.moji001.com,🍃 应用净化
+ - DOMAIN-SUFFIX,ugc..com,🍃 应用净化
  - DOMAIN-SUFFIX,ad.qingting.fm,🍃 应用净化
  - DOMAIN-SUFFIX,admgr.qingting.fm,🍃 应用净化
  - DOMAIN-SUFFIX,dload.qd.qingting.fm,🍃 应用净化
@@ -1707,7 +1756,7 @@ rules:
  - DOMAIN-SUFFIX,puds.ucweb.com,🍃 应用净化
  - DOMAIN-SUFFIX,server.m.pp.cn,🍃 应用净化
  - DOMAIN-SUFFIX,track.uc.cn,🍃 应用净化
- - DOMAIN-SUFFIX,u.uc123.com,🍃 应用净化
+ - DOMAIN-SUFFIX,u..com,🍃 应用净化
  - DOMAIN-SUFFIX,u.ucfly.com,🍃 应用净化
  - DOMAIN-SUFFIX,uc.ucweb.com,🍃 应用净化
  - DOMAIN-SUFFIX,ucsec.ucweb.com,🍃 应用净化
@@ -2011,16 +2060,16 @@ rules:
  - DOMAIN-SUFFIX,ad.cmvideo.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ad.csdn.net,🍃 应用净化
  - DOMAIN-SUFFIX,ad.ganji.com,🍃 应用净化
- - DOMAIN-SUFFIX,ad.house365.com,🍃 应用净化
+ - DOMAIN-SUFFIX,ad..com,🍃 应用净化
  - DOMAIN-SUFFIX,ad.thepaper.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ad.unimhk.com,🍃 应用净化
- - DOMAIN-SUFFIX,adadmin.house365.com,🍃 应用净化
+ - DOMAIN-SUFFIX,adadmin..com,🍃 应用净化
  - DOMAIN-SUFFIX,adhome.1fangchan.com,🍃 应用净化
  - DOMAIN-SUFFIX,adm.10jqka.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,ads.csdn.net,🍃 应用净化
  - DOMAIN-SUFFIX,ads.feedly.com,🍃 应用净化
  - DOMAIN-SUFFIX,ads.genieessp.com,🍃 应用净化
- - DOMAIN-SUFFIX,ads.house365.com,🍃 应用净化
+ - DOMAIN-SUFFIX,ads..com,🍃 应用净化
  - DOMAIN-SUFFIX,ads.linkedin.com,🍃 应用净化
  - DOMAIN-SUFFIX,adshownew.it168.com,🍃 应用净化
  - DOMAIN-SUFFIX,adv.ccb.com,🍃 应用净化
@@ -2524,7 +2573,7 @@ rules:
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
  - DOMAIN-SUFFIX,garena.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
- - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
+ - DOMAIN-SUFFIX,.com,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
@@ -3189,17 +3238,17 @@ rules:
  - DOMAIN-SUFFIX,sandai.net,🎯 全球直连
  - DOMAIN-SUFFIX,thundercdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,xunlei.com,🎯 全球直连
- - DOMAIN-SUFFIX,got001.com,🎯 全球直连
+ - DOMAIN-SUFFIX,.com,🎯 全球直连
  - DOMAIN-SUFFIX,p4pfile.com,🎯 全球直连
  - DOMAIN-SUFFIX,rrys.tv,🎯 全球直连
  - DOMAIN-SUFFIX,rrys2020.com,🎯 全球直连
  - DOMAIN-SUFFIX,yyets.com,🎯 全球直连
  - DOMAIN-SUFFIX,zimuzu.io,🎯 全球直连
  - DOMAIN-SUFFIX,zimuzu.tv,🎯 全球直连
- - DOMAIN-SUFFIX,zmz001.com,🎯 全球直连
- - DOMAIN-SUFFIX,zmz002.com,🎯 全球直连
- - DOMAIN-SUFFIX,zmz003.com,🎯 全球直连
- - DOMAIN-SUFFIX,zmz004.com,🎯 全球直连
+ - DOMAIN-SUFFIX,.com,🎯 全球直连
+ - DOMAIN-SUFFIX,.com,🎯 全球直连
+ - DOMAIN-SUFFIX,.com,🎯 全球直连
+ - DOMAIN-SUFFIX,.com,🎯 全球直连
  - DOMAIN-SUFFIX,zmz2019.com,🎯 全球直连
  - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
@@ -3291,7 +3340,7 @@ rules:
  - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
  - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaoxing.com,🎯 全球直连
- - DOMAIN-SUFFIX,che168.com,🎯 全球直连
+ - DOMAIN-SUFFIX,.com,🎯 全球直连
  - DOMAIN-SUFFIX,chinacache.net,🎯 全球直连
  - DOMAIN-SUFFIX,chinaso.com,🎯 全球直连
  - DOMAIN-SUFFIX,chinaz.com,🎯 全球直连
@@ -3300,7 +3349,7 @@ rules:
  - DOMAIN-SUFFIX,cibntv.net,🎯 全球直连
  - DOMAIN-SUFFIX,clouddn.com,🎯 全球直连
  - DOMAIN-SUFFIX,cloudxns.net,🎯 全球直连
- - DOMAIN-SUFFIX,cn163.net,🎯 全球直连
+ - DOMAIN-SUFFIX,.net,🎯 全球直连
  - DOMAIN-SUFFIX,cnbeta.com,🎯 全球直连
  - DOMAIN-SUFFIX,cnbetacdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,cnblogs.com,🎯 全球直连
@@ -3488,7 +3537,7 @@ rules:
  - DOMAIN-SUFFIX,yinxiang.com,🎯 全球直连
  - DOMAIN-SUFFIX,yinyuetai.com,🎯 全球直连
  - DOMAIN-SUFFIX,yixia.com,🎯 全球直连
- - DOMAIN-SUFFIX,ys168.com,🎯 全球直连
+ - DOMAIN-SUFFIX,.com,🎯 全球直连
  - DOMAIN-SUFFIX,yuewen.com,🎯 全球直连
  - DOMAIN-SUFFIX,yy.com,🎯 全球直连
  - DOMAIN-SUFFIX,yystatic.com,🎯 全球直连
